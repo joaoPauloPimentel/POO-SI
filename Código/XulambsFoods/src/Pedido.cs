@@ -57,5 +57,6 @@ namespace XulambsFoods_2025_1.src {
             relat.Append($"Valor a pagar: {PrecoAPagar():C2}");
             return relat.ToString();
         }
+        public int GetID(){ return _idPedido; }
     }
 }
